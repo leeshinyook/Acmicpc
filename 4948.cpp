@@ -25,7 +25,7 @@ int main() {
         cin >> num;
         if(!num) break;
         for(int i = num + 1; i <= num * 2; i++) {
-            if(v[i]) count++;
+            if(v[i]) count++; // 0이 아닌 부분 즉, 소수것만 카운팅.
         }
         cout << count <<"\n";
         count = 0;
