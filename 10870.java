@@ -1,17 +1,19 @@
-import java.util.Scanner;
+import java.lang.*;
+import java.util.*;
 
 public class Main {
-
-    public static int Fibo(int num) {
-        if(num == 0) return 0;
-        else if(num == 1) return 1;
-        else return Fibo(num - 1) + Fibo(num - 2);
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        int num = sc.nextInt();
-        System.out.print(Fibo(num));
+        long[] dp = new long[100];
+        int T = sc.nextInt();
+        dp[0] = 0;
+        dp[1] = 1;
+        for(int i = 2; i < 100; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        while(T-- > 0) {
+            int num = sc.nextInt();
+            System.out.println(dp[num]);
+        }
     }
 }
