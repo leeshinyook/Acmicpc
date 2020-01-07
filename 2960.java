@@ -28,6 +28,5 @@ public class Main {
             }
         }
         System.out.println(ans.get(K - 1));
-
     }
 }
