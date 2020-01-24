@@ -9,8 +9,7 @@ public class Main {
     public static void main(String[] args) throws Exception{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] str = br.readLine().split("");
-
-        int max = 0;
+        int max;
         for(String e : str) {
             if(map.containsKey(e)) {
                 int v = map.get(e);
