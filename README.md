@@ -3,14 +3,18 @@
 
 
 
-### 언어 `Language`
+
+
+## 언어 `Language`
 
 1. C++ `c++14`
 2. Java `java8`
 
 
 
-### 문제분류 `Classification`
+
+
+## 문제분류 `Classification`
 
 - Commit Message
 
@@ -18,7 +22,9 @@
 
 
 
-### 검색목록 `Category`
+
+
+## 검색목록 `Category`
 
 > Cmd + F / Ctrl + F 후 알고리즘 검색
 
@@ -62,11 +68,12 @@
 
   - 정수론
 
-    
 
 
 
-### 문제풀이 사이트 `Origin`
+
+
+## 문제풀이 사이트 `Origin`
 
 #### [백준온라인저지 Baekjoon Online Judge](https://www.acmicpc.net/)
 
@@ -80,7 +87,12 @@ ex)1000번문제, https://www.acmicpc.net/problem/1000
 
 
 
-### About me
+## 문제 난이도 확인
 
-#### [ME!](https://www.acmicpc.net/user/updown2011)
+> 크롬 확장프로그램 [`Solved.at`](https://solved.ac/) 설치
 
+
+
+## About me
+
+#### 이신육 - [ME!](https://www.acmicpc.net/user/updown2011)
