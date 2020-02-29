@@ -27,4 +27,5 @@ int main(){
     }
     cout << ans * ans;
     return 0;
+// scanf와 cin을 같이 쓰지말라.
 }
