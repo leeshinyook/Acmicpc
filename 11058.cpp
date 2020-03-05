@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#define INF 987654321
 using namespace std;
 
 long long dp[101];
