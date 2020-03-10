@@ -21,7 +21,6 @@ int main() {
         int mid = (left + right) / 2;
         int start = arr[0];
         int cnt = 1;
-
         // 간격을 기준으로 공유기를 설치한다.
         for(int i = 1; i < N; i++) {
             d = arr[i] - start;
